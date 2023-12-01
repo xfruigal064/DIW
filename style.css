@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #2D526E;
+  --primary-shade-1: #748FA3;
+  --primary-shade-2: #4C6E88;
+  --primary-shade-3: #183B57;
+  --primary-shade-4: #07243B;
+
+  --secondary-color-1: #AB903F;
+  --secondary-shade-1-1: #FEEAB0;
+  --secondary-shade-2-1: #D3BA70;
+  --secondary-shade-3-1: #866D1F;
+  --secondary-shade-4-1: #5C4605;
+
+  --secondary-color-2: #AB5E3F;
+  --secondary-shade-1-2: #FEC6B0;
+  --secondary-shade-2-2: #D38C70;
+  --secondary-shade-3-2: #863C1F;
+  --secondary-shade-4-2: #5C1E05;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+header {
+  background-color: var(--secondary-color-1);
+  padding: 1em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+
+section {
+  padding: 2em;
+}
+
+footer {
+  background-color: var(--secondary-color-2);
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.carousel-item img {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+#tostada {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  background-color: #5C1E05;
+}
